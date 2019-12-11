@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yeon Sung', cursive;
+}
+
+#grid-container {
+    width: 90vh;
+    height: 90vh;
+    margin: auto;
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quadrato {
+    width: 15vh;
+    height: 15vh;
+    border: 1px solid black;
+}
+
+.quadrato:hover {
+    border: 2px solid black;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
